@@ -1,0 +1,4 @@
+interface:
+  display_name: "课表解析与值班优化"
+  short_description: "整合教务课表、软件截图和口头约束，按教学周优化值班时长与早班分配"
+  default_prompt: "使用 $course-duty-roster 解析本次课表和聊天约束，核对目标周的空闲班次，生成时长尽量均衡的值班表，并说明缺岗及可选方案。"
